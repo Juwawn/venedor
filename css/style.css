@@ -1,0 +1,62 @@
+* {box-sizing: border-box;}
+
+:root {
+    --topheader: #f1f6fa;
+    --toptextcolor: #a2a0a1;
+    --blue: #1fb1c8;
+    --topfooter: #d6d6d6;
+    --bottomfooter: #d6d6d6;
+    --gray: #d8d8d8;
+}
+
+/* -------------------------------------Header */
+
+.top-section {
+    background-color: var(--topheader);
+    padding-top: 10px;
+}
+
+.top-nav {
+    /* border: 1px solid black; */
+    width: 50%;
+    position: relative;
+    left: 100px;
+}
+
+.top-link {
+    color: var(--toptextcolor);
+}
+
+.p-link {
+    color: var(--blue)
+}
+
+/* Bottom-Section */
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: var(--blue);
+    border-radius: 50%;
+}
+
+.span-ve {
+    color: white;
+}
+
+.span-end {
+    color: var(--blue);
+}
+
+.top-button {
+    background-color: var(--gray);
+}
+
+.top-button2 {
+    background-color: var(--blue);
+}
+
+.flag {
+    width: 15px;
+}
+
