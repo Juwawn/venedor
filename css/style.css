@@ -3,7 +3,7 @@
 :root {
     --topheader: #f1f6fa;
     --toptextcolor: #a2a0a1;
-    --blue: #1fb1c8;
+    --blue: #24bbc2;
     --topfooter: #d6d6d6;
     --bottomfooter: #d6d6d6;
     --gray: #d8d8d8;
@@ -17,14 +17,18 @@
 }
 
 .top-nav {
-    /* border: 1px solid black; */
     width: 50%;
     position: relative;
-    left: 100px;
+    left: 200px;
 }
 
 .top-link {
     color: var(--toptextcolor);
+}
+
+.p-col {
+    position: relative;
+    right: 40px;
 }
 
 .p-link {
@@ -34,10 +38,28 @@
 /* Bottom-Section */
 
 .circle {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background-color: var(--blue);
     border-radius: 50%;
+}
+
+.heading {
+    position: relative;
+    font-family: 'Sanchez', serif;
+    font-size: 50px;
+    top: 10px;
+    left: 20px;
+}
+
+.circle, .buttons {
+    position: relative;
+    left: 200px;
+}
+
+.buttons-3 {
+    position: relative;
+    left: 150px;
 }
 
 .span-ve {
@@ -54,9 +76,34 @@
 
 .top-button2 {
     background-color: var(--blue);
+    color: white;
 }
 
 .flag {
     width: 15px;
 }
 
+.bottom-link {
+    color: black;
+    font-weight: 500;
+    position: relative;
+    left: 130px;
+}
+
+.bottom-link:hover {
+    color: var(--blue);
+} 
+
+.search-form {
+    position: relative;
+    right: 150px;
+}
+
+.mag {
+    background-color: var(--gray);
+
+}
+
+.input-search {
+    font: italic;
+}
