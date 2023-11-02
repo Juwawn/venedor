@@ -7,11 +7,14 @@
     --topfooter: #d6d6d6;
     --bottomfooter: #d6d6d6;
     --gray: #d8d8d8;
+    --btn: #434b4d;
+    --email: #fde314;
 }
 
 /* -------------------------------------Header */
 
 .top-section {
+    border-top: 3px solid var(--blue);
     background-color: var(--topheader);
     padding-top: 10px;
 }
@@ -28,7 +31,7 @@
 
 .p-col {
     position: relative;
-    right: 40px;
+    right: 20px;
 }
 
 .p-link {
@@ -59,7 +62,7 @@
 
 .buttons-3 {
     position: relative;
-    left: 150px;
+    left: 170px;
 }
 
 .span-ve {
@@ -96,7 +99,7 @@
 
 .search-form {
     position: relative;
-    right: 150px;
+    right: 130px;
 }
 
 .mag {
@@ -107,3 +110,174 @@
 .input-search {
     font: italic;
 }
+
+/* Main */
+
+.blue-bar {
+    /* border: 3px solid var(--blue); */
+    position: relative;
+    top: 12px;
+    height: 28px;
+    width: 5px;
+    background-color: var(--blue);
+}
+
+.subheading {
+    font-size: 40px;
+}
+
+.latest-heading {
+    position: relative;
+    left: 140px;
+}
+
+.arrows {
+    position: relative;
+    left: 10px;
+}
+
+.border-div {
+    width: 760px;
+    height: 2px;
+    background-color: var(--gray);
+    position: relative;
+    top: 20px;
+    right: 170px;
+}
+
+.left-arrow, .right-arrow {
+    color: black;
+    background-color: var(--gray);
+    /* border: 1px solid var(--gray); */
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    color: white;
+    background-color: var(--blue);
+}
+
+.p-latest {
+    position: relative;
+    left: 140px;
+}
+
+.latest-cards {
+    position: relative;
+    left: 170px;
+}
+
+.cart {
+    background-color: var(--btn);
+    color: white;
+}
+
+.theme {
+    color: var(--blue);
+}
+
+.welcome-heading {
+    position: relative;
+    left: 140px;
+    text-indent: 2%;
+}
+
+.p-welcome {
+    text-indent: 3%;
+    font-size: 14px;
+}
+
+.screens {
+    position: relative;
+    left: 10px;
+}
+
+.bestsellers-heading {
+    position: relative;
+    left: 140px;
+}
+
+.border-div2 {
+    width: 680px;
+    height: 2px;
+    background-color: var(--gray);
+    position: relative;
+    top: 20px;
+    right: 90px;
+}
+
+.manufacturers-heading {
+    position: relative;
+    left: 140px;
+}
+
+.border-div3 {
+    width: 610px;
+    height: 2px;
+    background-color: var(--gray);
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.brand-logo {
+    margin-right: -27px;
+    position: relative;
+    left: 75px;
+}
+
+.brand {
+    width: 85%;
+}
+
+/* ----------------------------Footer */
+
+.sign-up-heading {
+    position: relative;
+    left: 140px;
+}
+
+.sign-up-btn {
+    background-color: var(--btn);
+    color: white;
+    position: relative;
+    right: 17px;
+}
+
+.email-bar {
+    border: 3px solid var(--email);
+    background-color: var(--bottomfooter);
+}
+
+.sign-up {
+    background-color: var(--bottomfooter);
+    height: 80px;
+}
+
+.information {
+    background-color: var(--btn);
+}
+
+.footer-heading {
+    color: var(--topheader);
+}
+
+.list-account {
+    list-style-image: url(/../media/block.jpg);
+}
+
+.sub-list {
+    color: var(--gray);
+}
+
+.sub-list:hover {
+    color: var(--blue);
+}
+
+.footer-p1, .footer-p3 {
+    color: var(--gray);
+}
+
+.footer-p2, .footer-p4 {
+    color: var(--toptextcolor);
+}
+
